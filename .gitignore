@@ -1,0 +1,13 @@
+
+node_modules
+
+.DS_Store
+
+lib
+
+*.log
+.cache
+
+.history
+
+.pnpm-debug.log
