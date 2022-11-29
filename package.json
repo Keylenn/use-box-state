@@ -1,12 +1,18 @@
 {
   "name": "use-box-state",
-  "version": "0.3.2",
+  "version": "1.0.0-beta.1",
   "repository": "https://github.com/Keylenn/use-box-state.git",
   "description": "",
   "keywords": [
-    "React",
-    "Hooks"
+    "react",
+    "hooks",
+    "box",
+    "state",
+    "immutable"
   ],
+  "engines": {
+    "node": ">=10"
+  },
   "author": "Keylenn <darklight_on@163.com>",
   "license": "MIT",
   "main": "lib/use-box-state.js",
@@ -22,7 +28,7 @@
     "lint-staged": "lint-staged",
     "commitlint": "commitlint --config commitlint.config.js -e -V"
   },
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
@@ -41,12 +47,10 @@
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.29.0",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "lint-staged": "^10.5.4"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17"
-  },
-  "devDependencies": {
-    "lint-staged": "^10.5.4"
   }
 }
